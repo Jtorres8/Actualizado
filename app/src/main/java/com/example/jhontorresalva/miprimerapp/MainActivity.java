@@ -1,5 +1,6 @@
 package com.example.jhontorresalva.miprimerapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void cli(View view){
 
-        Toast.makeText(this, android.R.id.btnClic, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Probando", Toast.LENGTH_LONG).show();
+        Intent siguiente = new Intent(this, two.class);
+        startActivity(siguiente);
     }
 }
