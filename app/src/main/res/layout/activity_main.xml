@@ -8,10 +8,13 @@
 
     <Button
         android:id="@+id/btnClic"
-        android:layout_width="87dp"
+        android:layout_width="122dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="200dp"
         android:onClick="cli"
-        android:text="Clic"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="173dp" />
+        android:text="@string/Pasar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
